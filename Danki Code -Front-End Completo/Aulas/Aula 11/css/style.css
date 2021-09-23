@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.box{
+    width: 400px;
+    height: auto;
+    background: gray;
+}
+.box2{
+   height: 900px;
+}
+
+.box > .box2 > span{
+    display: inline-block;
+    /* width: inherit;
+    height: inherit;
+    background: inherit; */
+}

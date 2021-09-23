@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+hmtl, body {
+    height: 100%;
+}
+
+.bg {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    /* Backgrounds */
+    background-color: red;
+    background-image: url(../imagens/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /*no-repeat, repeat-x, repeat-y */
+}

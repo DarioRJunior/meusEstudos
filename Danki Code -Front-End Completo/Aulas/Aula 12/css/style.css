@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* TEM QUE SER IGUAL! */
+/* a[href="http:/www.google.com"]{
+    background-color: yellow;
+} */
+
+a[href*="google"]{
+    background-color: blue;
+}
+
+
+/* PROCURE ENTRE OS ESPAÇOS DO ATRIBUTO */
+/* a[attr~="google"]{
+    background-color: red;
+} */
+
+/* ACHE A PALAVRA GOOGLE EM QUALQUER LUGAR */
+/* a[attr*="google"]{
+    background-color: red;
+} */

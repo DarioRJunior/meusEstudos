@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+hmtl, body {
+    height: 100%;
+}
+
+.teste, .teste1, .teste2 {
+    display: inline-block;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 300px;
+    background-color: #ccc;
+}
+
+.teste1 {
+    background-color: rgb(98, 98, 98);
+}
+
+.teste2 {
+    background-color: rgb(50, 50, 50);
+}
+
+/* .teste:hover {
+    height: 900px;
+    background-color: blue;
+}
+
+.teste:hover, .teste1, .teste2 {
+    vertical-align: top;
+} */
+
+/* Active serve para quando estamos com o mouse pressionado em cima do nosso elemento */
+
+/* .teste:active{
+    background-color: black;
+} */
+
+/* Focus serve para quando clicamos e focamos o nosso elemento no formulario */
+
+/* .text:focus{
+    background-color: red;
+}
+.textarea1{
+    display: block;
+    width: 600px;
+    height: 400px;
+} */
+
+.link1:link {
+    color: orange;
+}
+
+.link1:visited {
+    color: purple;
+}
+/* Não utilizar visited  melhor usar Javascript */
